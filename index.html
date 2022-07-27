@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Profiles</title>
+    <style>
+
+        * {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+
+        /* START HEADER */
+        header {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 80px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0px;
+            background: #ffffff;
+            z-index: 1;
+            border-bottom: 1px solid #364f6b;
+        }
+
+
+        .container { 
+            width: 1100px;
+            margin: auto;
+            position: relative;
+        } 
+
+
+        .judul a {
+            font-size: 50px;
+            font-weight: 800;
+            float: left;
+            font-family: courier;
+            color: #364f6b;
+        }
+
+
+        .menu {
+            float: right;
+        }
+
+
+        header ul {
+            list-style-type: none;
+            margin: 0px;
+            padding:0px;
+            overflow: hidden;
+        }
+
+
+        header ul li {
+            float: left;
+        }
+
+
+        header ul li a {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            padding: 0px 16px 0px 16px;
+            text-decoration: none;
+        }
+
+
+        header ul li a:hover {
+            background: salmon;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+        }
+
+
+        a.tbl-biru   {
+            background: #3f72af;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+            color: #ffffff;
+            cursor: pointer;
+            font-weight; bold;
+        }
+
+
+        a.tbl-biru:hover {
+            text-decoration: underline;
+            background: salmon;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+        }
+        /* END HEADER */
+
+
+        /* START SECTION */
+        section {
+            margin: auto;
+            display: flex;
+            margin-bottom: 50px;
+        }
+
+
+        .content {
+            text-align: center;
+            width: 100%;   
+        }
+
+
+        .content .deskripsi {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+
+        section h2 {
+            font-family: courier;
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 50px;
+            color: #364f6b;
+            width: 100%
+        }
+
+
+        a.tbl-salmon {
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+        }
+
+
+        a.tbl-salmon:hover {
+            background: salmon;
+            text-decoration: none;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+        }
+        /* END SECTION */
+
+
+        /* START HERO */
+        .hero { 
+            width: 1100px;
+            margin: auto;
+            position: relative;
+        } 
+
+
+        .kolom {
+            text-align: center;
+            width: 100%;
+        }
+
+
+
+        .kolom .isi {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+            margin-bottom: 30px;
+            margin-right: 10%;
+        }
+
+
+        .gambar {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .gambar-satu {
+            width: 15%;
+            
+        }
+
+        .gambar-satu img {
+            width: 30%;
+            
+        }
+
+
+        .gambar-satu p {
+            font-family: sans-serif;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+        }
+        /* END HERO */
+
+
+        /* START SOSMED */
+        .sosmed {
+            background-color: #eaeaea;
+        }
+
+
+        .sosmed img {
+            width: 2%;
+            padding-left: 50px;
+            margin-top: 10px; 
+            justify-content: center;
+        }
+        /* END SOSMED */
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <div class="judul"><a href="">My Website</a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="home">HOME</a></li>
+                        <li><a href="about">ABOUT</a></li>
+                        <li><a href="products">PRODUCTS</a></li>
+                        <li><a href="services">SERVICES</a></li>
+                        <li><a href="hcontact">CONTACT</a></li>
+                        <li><a href="" class="tbl-biru">SIGN UP</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <img src="img.webp"/>
+            <div class="content">
+                <p class="deskripsi">Belajar Programming</p>
+                <h2>Belajar Ngoding Web From Zero To Pro</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente molestias, ut repudiandae sit iusto expedita totam id accusantium animi placeat, voluptas, unde atque earum eveniet quidem dolor inventore impedit laboriosam.</p>
+                <br>
+                <p><a href="Klik Disini" class="tbl-salmon">Klik Disini</a></p>
+            </div>
+    </section>
+
+    <section>
+        <div class="hero">
+            <div class="kolom">
+                <p class="isi">Mempelajari:</p> 
+        
+                <div class="gambar">
+                    <div class="gambar-satu">
+                        <img src="html.png">
+                        <p>HTML</p>
+                    </div>
+           
+                    <div class="gambar-satu">
+                        <img src="css.png">
+                        <p>CSS</p>
+                    </div>
+
+                    <div class="gambar-satu">
+                        <img src="php.png">
+                        <p>PHP</p>
+                    </div>
+
+                    <div class="gambar-satu">
+                        <img src="bootstrap.png">
+                        <p>BOOTSTRAP</p>
+                    </div>
+
+                    <div class="gambar-satu">
+                        <img src="mysql.png">
+                        <p>MYSQL</p>
+                    </div>
+
+                    <div class="gambar-satu">
+                        <img src="laravel.jpg">
+                        <p>LARAVEL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sosmed">
+        <img src="facebook.jpg">
+        <img src="instagram.png">
+        <img src="twitter.png">
+    </div>
+</body> 
+</html>
